@@ -1,0 +1,42 @@
+.required:after{
+    content:"*";
+    color: red;
+  }
+  label{
+    font-weight: bold;
+  }
+  .checked{
+    color:goldenrod;
+    cursor:pointer;
+  }
+  input{
+    cursor:pointer;
+  }
+  #comments{
+    display:flex;
+  }
+  .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.custom-checkbox input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.custom-checkbox input[type="radio"] {
+    margin: 0;
+}
+
+.custom-checkbox label {
+    display: inline-block;
+    margin: 0 10px;
+}
